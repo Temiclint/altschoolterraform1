@@ -1,0 +1,8 @@
+region                 = "eu-west-1"
+project_title          = "dev"
+vpc_cidr               = "10.0.0.0/16"
+public_subnet_az1_cidr = "10.0.0.0/24"
+public_subnet_az2_cidr = "10.0.1.0/24"
+ami                    = "ami-0905a3c97561e0b69"
+type                   = "t2.micro"
+key_pair               = "altschoolterraform-1-eu-west-1"
